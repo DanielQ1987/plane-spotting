@@ -37,9 +37,27 @@ header a {
 h1{
    font-family: "Oswald", sans-serif;
    text-transform: uppercase;
-   letter-spacing:2px;
+   letter-spacing:4px;
    color:darkgreen;
 }
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+   margin-bottom: 1px;
+
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+    
+
+
 
 
 main {
