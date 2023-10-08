@@ -9,86 +9,85 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color:#3a3a3a;
-    font-family: "Lato",sans-serif;
+    color: #3a3a3a;
+    font-family: "Lato", sans-serif;
 }
 
 
 
-header  {
-    background-color:white;
-    padding: 0;
+header {
+    background-color:#ffffff;
+    padding: 10 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
+    
 }
 
 header a {
-    text-decoration:  none;
+    text-decoration: none;
     color:inherit;
 }
 
 
-h1{
-   font-family: "Oswald", sans-serif;
-   text-transform: uppercase;
-   letter-spacing:2px;
-   color:darkgreen;
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:black;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    list-style-type: none;
+    list-style-type:  none;
 }
 
 #menu > li {
-   margin-bottom: 1px;
-
+ margin-bottom: 1em;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
 }
 
-nav{
-   position: absolute;
-   background-color: white;
-   width: 100%;
-   left: 0;
-   padding:0 1rem;
-   box-shadow: 0 2px 2px #3a3a3a;
-   display: none;
-   top:100%;
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
 }
- 
 
 #nav-toggle:checked~nav {
-    display:block;
+     display: block;
 }
 
 #nav-toggle {
-  display:none;
+    display: none;
 }
 
-.nav-toggle-label{
-  font-size: 2rem;
-
+.nav-toggle-label {
+    font-size: 2rem;
 }
-
 
 
 main {
-    background-color: crimson;
+    background-color:lightblue;
     flex: 1 0 auto;
     margin-top: 47px;
+    
 }
 
 
@@ -96,7 +95,24 @@ footer {
     background-color: darkgreen;
 }
 
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+#menu {
+    display: flex;
+}   
+
+#menu > li {
+    padding-left: 1rem;
+}
 
 
-
-
+.nav-toggle-label {
+    display: none;
+}
+}
