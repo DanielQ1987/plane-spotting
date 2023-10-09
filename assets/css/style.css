@@ -83,12 +83,21 @@ nav {
 }
 
 
-main {
-    background-color:lightblue;
+main{
     flex: 1 0 auto;
     margin-top: 47px;
     
+    
 }
+
+#plane-spotting {
+    height: 600px;
+    width: 100%;
+    background: url("../images/plane-spotting webp.jpg") no-repeat center center/cover;
+}
+
+
+
 
 
 #social-networks {
