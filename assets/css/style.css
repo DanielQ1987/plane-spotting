@@ -39,7 +39,7 @@ header a {
 
 
 h1 {
-    font-family: "Oswald", sans-serif;
+    font-family: "oswald", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color:black;
@@ -261,13 +261,17 @@ main {
     width: 90%;
     margin: 10px auto;
     text-align:right;
-    color:black;
+    color:#ffffff;
+    font-family:Impact;
+    font-size: large;
 }
 #reasons h2 {
     margin-bottom: 1px;
     text-align:flex;
-    font-size: 280%;
-    color:black;
+    font-size: 400%;
+    color:lightskyblue;
+    
+    
 }
 
 #benefits > div {
@@ -275,12 +279,15 @@ main {
     margin-bottom: 20px;
     
     
+    
 }
 
 #benefits p {
     padding: 1 20px;
-    color:black;
+    color:white;
     line-height: 50%;
+    
+    
     
 
 }
