@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a;
+    color:#3a3a3a;
     font-family: "Lato", sans-serif;
 }
 
@@ -48,11 +48,13 @@ h1 {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    list-style-type:  none;
+    list-style-type: none;
 }
 
 #menu > li {
- margin-bottom: 1em;
+ margin-bottom: 10px;
+ display:flex  ;
+ 
 }
 
 .active {
@@ -61,7 +63,7 @@ h1 {
 
 nav {
     position: absolute;
-    background-color:#ffffff;
+    background-color:white;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -87,15 +89,19 @@ main{
     flex: 1 0 auto;
     margin: top 47px;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
+    background-size: cover;
     
 }
 
 
-#plane {
+
+
+#aerlingus {
 height: 600px;
 width: 100%;
-background:url(../images/plane.webp) no-repeat center center/cover;
+background:url(../images/aerlingus\ a330.webp) no-repeat center center/cover;
+background-size: cover;
 
 
 }
@@ -106,6 +112,7 @@ background:url(../images/plane.webp) no-repeat center center/cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    width: 100%;
 }
 #signup-form {
     color: #ffffff;
@@ -176,7 +183,7 @@ background:url(../images/plane.webp) no-repeat center center/cover;
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color:#3a3a3a
+    color:black;
 }
 
 @media screen and (min-width: 768px) {
@@ -203,7 +210,7 @@ background:url(../images/plane.webp) no-repeat center center/cover;
     font-size: 280%;
     line-height: 75px;
     margin:0 0.5rem;
-    color:green;
+    color:black;
 }
 main {
     margin-top: 79px;
@@ -218,29 +225,33 @@ main {
 }
 #reasons {
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto;
+    text-align: center;
 }
 #reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 10px;
+    text-align:flex;
     font-size: 280%;
-    color:chartreuse
+    color:black;
 }
 
-#benefits>div {
+#benefits > div {
     line-height: 50px;
     margin-bottom: 20px;
     
 }
 
 #benefits p {
-    padding: 0 20px;
-    color: black
+    padding: 1 20px;
+    color:black;
+    line-height: 50%;
+    
 
 }
 hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+    border-top: 2px solid #3a3a3a;
+    margin: 10px 0;
+
 }
 
 
